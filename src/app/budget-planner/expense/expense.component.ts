@@ -88,6 +88,6 @@ export class ExpenseComponent {
   }
 
   onBack() {
-    this.router.navigate(['/budget-planner/dashboard']);
+    this.router.navigate(['/dashboard']);
   } 
 }

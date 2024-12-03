@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
 
       if (user) {
         console.log("Login successful for:", email);
-        this.router.navigate(['/budget-planner/dashboard']);
+        this.router.navigate(['/dashboard']);
       } else {
         this.snackBar.open('Invalid email or password!', 'Close', { duration: 3000 });
       }
